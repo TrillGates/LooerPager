@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="looper_style">
+        <attr name="is_title_show" format="boolean" />
+        <attr name="show_pager_count" format="enum">
+            <enum name="single" value="1" />
+            <enum name="multi" value="3" />
+        </attr>
+        <attr name="switch_time" format="integer" />
+    </declare-styleable>
+</resources>
